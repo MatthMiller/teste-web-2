@@ -10,6 +10,17 @@
 <body>
   <h1>Olá mundo</h1>
   <p>🍔</p>
+  <p>🍟</p>
+  <p>🍕</p>
+
+  <!-- Script de fetch testando -->
+  <script>
+    fetch('https://api.github.com/users/rodrigoguimaraes')
+      .then(response => response.json())
+      .then(data => {
+        console.log(data)
+      })
+  </script>
 </body>
 
 </html>
